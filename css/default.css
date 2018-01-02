@@ -1,0 +1,20 @@
+* {
+	background-color: #23262E;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.container-fluid,
+.row-fluid {
+	width: 100%;
+}
+
+.row-fluid {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.span4,.span7{
+	border: 1px solid yellow;
+}
