@@ -1,58 +1,50 @@
-.tag-form .tag-description {
-	line-height: 1.8em;
+.row-fluid-content .row-fluid-title{
+	color: snow;
+	background-color: rgb(35,40,46);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px 10px 10px 20px;
+}
+.row-fluid-content .row-fluid-row{
+	padding: 10px 20px 20px 20px;
+	color: snow;
+	background-color: rgb(71,75,81);
 }
 
-.tag-extend {
-	overflow: hidden;
-	margin-bottom: 1em;
+.row-fluid-content .row-fluid-row .row-fluid-row-title{
+	padding: 8px;
+	display: block;
+	background-color: rgb(71,75,81);
 }
 
-.extend-key,
-.extend-value {
-	float: left;
-	width: 41%;
-	margin-right: 3%;
+.row-fluid-content .row-fluid-row .row-fluid-desc{
+	padding: 6px 6px 6px 8px;
+	display: block;
+	background-color: rgb(71,75,81);
+	font-size: 12px;
+    -webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.80);
+	color: gainsboro;
 }
 
-.extend-del {
-	float: right;
-}
-
-.tag-search-form .input-group .form-control {
-	width: 18em;
-}
-
-.tag-list .batch-checkbox,
-.tag-err-msg {
-	text-align: left;
-	padding-left: 2em;
-	margin: 1em 0;
-}
-
-tbody tr td {
-	line-height: 5em;
-}
-
-tbody tr td .tag-slug,
-tbody tr td .tag-description {
-	width: 10em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	-o-text-overflow: ellipsis;
-	-webkit-text-overflow: ellipsis;
-	-moz-text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-tbody tr td .content {
-	line-height: 2;
-}
-
-tbody tr td p {
+.row-fluid-content .row-fluid-row input{
 	margin: 0;
+	padding: 7px 7px 7px 10px;
+	border: 1px solid rgb(59,64,69);
+	background-color: rgb(62,66,70);
+	font-size: 14px;
+	color: snow;
+	width: 95%;
 }
 
-tbody tr td img {
-	max-width: 4em;
-	margin: 0 1em;
+.row-fluid-content .row-fluid-row textarea{
+	margin: 0;
+	padding: 7px 7px 7px 10px;
+	border: 1px solid rgb(59,64,69);
+	background-color: rgb(62,66,70);
+	font-size: 14px;
+	color: snow;
+	height: 40px;
+	width: 95%;
+	resize: none;
 }

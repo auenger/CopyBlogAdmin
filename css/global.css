@@ -5,7 +5,7 @@
 
 */
 
-body{background-color: #23262E;}
+body{background-color: rgb(50,55,61);}
 
 /* 布局 */
 .site-inline{font-size: 0;}
@@ -278,7 +278,7 @@ body .site-demo-nav .layui-nav-item{line-height: 40px}
     background-color: #2B2E37!important;
     color: #fff;
 }
-.layui-show{background-color: #23262E;}
+.layui-show{background-color: rgb(50,55,61);}
 .admin{
 	border: 0;
 	margin: 0;
